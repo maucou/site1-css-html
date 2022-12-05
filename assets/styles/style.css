@@ -1,0 +1,88 @@
+
+/*=========All============*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+/*=========Header============*/
+
+.header {
+    height: 100vh;
+    width: 100%;
+}
+
+/*=========Nav============*/
+
+nav {   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2.813rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/*=========Logo============*/
+
+nav a#logo {
+    color: darkorchid;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+span#logo-span {
+    color: darksalmon;
+}
+
+
+/*=========Menu-Bar============*/
+
+nav ul#nav__list {
+   
+    
+}
+
+nav ul .nav__item {    
+    display: inline-block;
+    padding: 0.625rem 1.5625rem;
+}
+
+nav ul li .nav__link {
+    color: darkolivegreen;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+nav ul li .nav__link:hover {
+    color: rgb(192, 223, 223);
+    transition: .4s;
+}
+
+/*=========Button-Login============*/
+nav ul .nav__button {
+    background-color: darksalmon;
+    color: white;
+    text-decoration: none;
+    border: 0,125rem solid transparent;
+    font-weight: bold;
+    padding: 0.625rem 1.5625rem;
+    border-radius: 1.875rem;
+    transition: transform .4s;
+    cursor: pointer;
+}
+
+nav ul .nav__button:hover {
+    transform: scale(1.2);
+}
